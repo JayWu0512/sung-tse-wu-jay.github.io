@@ -36,15 +36,15 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Sung-Tse(Jay), Wu",
-  tagline: "I build things for web",
+  tagline: "Passionate about discovering new insights in data.",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `My name is Jay Wu, a curious, empathetic communicator who aspires to be 'someone with a story to tell.' During my time at PwC, I observed the diverse people I encountered over the past two years and found myself asking, 'Is accounting the only path in life?' In search of new directions, I began identifying talent gaps within each company I worked with and dedicated my spare time to learning across various fields and exploring my interests. This journey has fostered a strong passion for the fields of data and AI, and I am committed to applying my coding skills and current knowledge to help companies tackle a variety of challenges. My goal is to leverage my expertise in accounting, finance, and data to enhance company efficiency while building a solid reputation.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/sung-tse-wu/",
+  github: "https://github.com/JayWu0512",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -52,43 +52,29 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "QA Engineer",
+    Company: `IHH 桓竑智聯`,
+    Location: "Taipei, Taipei City, Taiwan",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Nov 2024 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Senior Associate Auditor",
+    Company: `PwC`,
+    Location: "Taipei, Taipei City, Taiwan",
+    Type: "Full Time",
+    Duration: "Oct 2021 - Oct 2023",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Bachelor in Accounting",
+    Company: `National Taipei University`,
+    Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Sep 2016 - Jun 2020",
   },
 ];
 
