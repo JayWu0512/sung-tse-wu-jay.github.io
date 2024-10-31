@@ -14,6 +14,8 @@ module.exports = {
         "dark-card": "#363636",
         "green-text": "#018C0F",
         "greenbg": "#D7FFE0",
+        "gray-heading": "#575757",
+        "lightgray-heading": "#a1a1a1",
       },
     },
   },

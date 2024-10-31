@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/my_profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -73,8 +73,21 @@ export const eduDetails = [
     Position: "Bachelor in Accounting",
     Company: `National Taipei University`,
     Location: "Taipei, Taiwan",
-    Type: "Full Time",
     Duration: "Sep 2016 - Jun 2020",
+    EducationDetails : [
+      {
+        img:projectImage1,
+        Position: "123",
+        Duration: "Sep2016 - Jun 2020",
+        JobContent: "123",
+      },
+      {
+        img:projectImage1,
+        Position: "123",
+        Duration: "Sep2016 - Jun 2020",
+        JobContent: "123",
+      },
+    ]
   },
 ];
 
