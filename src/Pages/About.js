@@ -2,7 +2,7 @@ import React from "react";
 import Work from "../Components/Work";
 import Education from "../Components/Education";
 import Certification from "../Components/Certification";
-import { personalDetails, workDetails, eduDetails, certificationDetails} from "../Details";
+import { personalDetails, workDetails, eduDetails, certificationDetails } from "../Details";
 
 function About() {
   return (
@@ -11,7 +11,11 @@ function About() {
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
+        <p
+          className="text-content py-8 lg:max-w-3xl"
+          style={{ whiteSpace: "pre-line" }}
+          dangerouslySetInnerHTML={{ __html: personalDetails.about }}
+        />
       </section>
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -50,7 +54,7 @@ function About() {
           Certifications
         </h1>
         {React.Children.toArray(
-          certificationDetails.map(({ Name, Issued_institution,Issued_time,Credential_ID, Classification}) => (
+          certificationDetails.map(({ Name, Issued_institution, Issued_time, Credential_ID, Classification }) => (
             <Certification
               name={Name}
               issued_institution={Issued_institution}
@@ -65,6 +69,5 @@ function About() {
   );
 }
 
-//position, company, location, duration, item
-
 export default About;
+

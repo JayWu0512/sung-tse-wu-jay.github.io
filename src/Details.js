@@ -29,7 +29,7 @@ import projectImage6 from "./assets/projects/project6.jpg";
 
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
-import summer_universiade_pre_event_performance from "./assets/summer_universiade_pre-event_performance.jpg"
+import volunteer from "./assets/volunteer.jpg"
 
 // Logos
 export const logos = {
@@ -42,7 +42,7 @@ export const personalDetails = {
   name: "Sung-Tse(Jay), Wu",
   tagline: "Passionate about discovering new insights in data.",
   img: profile,
-  about: `My name is Jay Wu, a curious, empathetic communicator who aspires to be 'someone with a story to tell.' During my time at PwC, I observed the diverse people I encountered over the past two years and found myself asking, 'Is accounting the only path in life?' In search of new directions, I began identifying talent gaps within each company I worked with and dedicated my spare time to learning across various fields and exploring my interests. This journey has fostered a strong passion for the fields of data and AI, and I am committed to applying my coding skills and current knowledge to help companies tackle a variety of challenges. My goal is to leverage my expertise in accounting, finance, and data to enhance company efficiency while building a solid reputation.`,
+  about: `My name is Jay Wu, a curious, empathetic communicator who aspires to be <strong>"someone with a story to tell."</strong> During my time at PwC, I observed the diverse people I encountered over the past two years and found myself asking, <strong>Is accounting the only path in life?</strong> \nIn search of new directions, I began identifying talent gaps within each company I worked with and dedicated my spare time to learning across various fields and exploring my interests. This journey has fostered a strong passion for the fields of data and AI, and I am committed to applying my coding skills and current knowledge to help companies tackle a variety of challenges. \nMy goal is to leverage my expertise in accounting, finance, and data to enhance company efficiency while building a solid reputation.`,
 };
 
 // Enter your Social Media URLs here
@@ -83,13 +83,13 @@ export const eduDetails = [
         img:north_taiwan_dance_competition,
         Position: "North Taiwan Dance Competition - Chief Coordinator",
         Duration: "July 2018 - Dec 2018",
-        JobContent: "123",
+        JobContent: "During my university years, I participated in various activities and clubs, but serving as the Chief Coordinator for the North Taiwan Dance Competition was the experience that changed my life the most, which is why I included it on my personal website as a representative of my university activities. \n \nIn this role, the most valuable lesson I learned was “empathy.” Empathy greatly improved my internal and external communication skills. Internally, it allowed me to better understand the diverse needs of team members, and during conflicts, I could act as an effective communicator, helping the team operate smoothly. Externally, empathy enabled me to grasp the objectives of government agencies, judges, and sponsors, allowing me to persuade them to collaborate with us and create win-win opportunities. \n \nIn summary, I believe that the empathy I developed through this experience will be crucial in future teamwork, cross-departmental collaboration, and client interactions. Whether collaborating with colleagues, advancing cross-departmental projects, or negotiating with clients, I am confident that empathy will help me consider others' perspectives, make decisions that meet mutual needs, and foster more efficient and harmonious partnerships.",
       },
       {
-        img:summer_universiade_pre_event_performance,
-        Position: "123",
-        Duration: "Sep2016 - Jun 2020",
-        JobContent: "123",
+        img:volunteer,
+        Position: "Summer Universiade Taipei 2017 - \nVolunteer Foreign Language Interpreter Leader - Chinese Taipei Team",
+        Duration: "July 2017 - Aug 2017",
+        JobContent: "Another experience that deeply impacted me was serving as the Volunteer Foreign Language Interpreter Leader for the Chinese Taipei Team at the Summer Universiade Taipei 2017. This experience marked the beginning of my journey to recognize my own shortcomings and strive for improvement, which is why I also included it on my personal website as another significant representation of my development.\n\nThis was the first international event I participated in after entering university, with athletes from over 100 countries coming to Taiwan. I was fortunate to pass a rigorous selection process to become a foreign language interpreter for our country. However, I faced many challenges. As a new university student, I was not yet comfortable with making small talk, so in the presence of both foreign and Taiwanese participants, I often hesitated to speak, which resulted in me struggling to make friends. Additionally, I lacked experience in coordinating and managing a small team, making task assignments challenging and communication within the group difficult, leading to some tough lessons. \n\nBecause of this experience, I spent the rest of my university years learning how to build meaningful connections, practicing my social skills, and correcting the areas where I previously fell short. Whenever I had opportunities to manage a team in various activities, I focused on avoiding past mistakes, making an effort to understand each person's perspective. It was through all these efforts and reflections that I grew into the person I was by the end of my university years.",
       },
     ]
   },
@@ -130,14 +130,14 @@ export const certificationDetails = [
     Issued_institution: `DataCamp`,
     Issued_time: "Oct 2024",
     Credential_ID: "PDA0016153384002",
-    Classification: "Data",
+    Classification: "Python",
   },
   {
     Name: "SQL Associate",
     Issued_institution: `DataCamp`,
     Issued_time: "Oct 2024",
     Credential_ID: "SQA0016242335437",
-    Classification: "Data",
+    Classification: "SQL",
   },
 ];
 
