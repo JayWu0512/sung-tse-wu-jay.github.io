@@ -27,6 +27,10 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
+// Club Activity
+import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
+import summer_universiade_pre_event_performance from "./assets/summer_universiade_pre-event_performance.jpg"
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -76,13 +80,13 @@ export const eduDetails = [
     Duration: "Sep 2016 - Jun 2020",
     EducationDetails : [
       {
-        img:projectImage1,
-        Position: "123",
-        Duration: "Sep2016 - Jun 2020",
+        img:north_taiwan_dance_competition,
+        Position: "North Taiwan Dance Competition - Chief Coordinator",
+        Duration: "July 2018 - Dec 2018",
         JobContent: "123",
       },
       {
-        img:projectImage1,
+        img:summer_universiade_pre_event_performance,
         Position: "123",
         Duration: "Sep2016 - Jun 2020",
         JobContent: "123",
@@ -94,16 +98,46 @@ export const eduDetails = [
 // Enter your Certifications here
 export const certificationDetails = [
   {
-    Name: "Data Associate",
-    Issued_institution: `DataCamp`,
-    Issued_time: "Sep 2024",
-    Credential_ID: "DEXXXXXXX",
+    Name: "Certified Public Accountant (CPA), Taiwan",
+    Issued_institution: `Examination Yuan of ROC`,
+    Issued_time: "Mar 2024",
+    Credential_ID: "8842",
+    Classification: "Accounting",
   },
   {
-    Name: "Data Associate",
+    Name: "Data Engineer Associate",
     Issued_institution: `DataCamp`,
     Issued_time: "Sep 2024",
-    Credential_ID: "DEXXXXXXX",
+    Credential_ID: "DEA0010832728986",
+    Classification: "Data",
+  },
+  {
+    Name: "Data Scientist Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Sep 2024",
+    Credential_ID: "DSA0016970617486",
+    Classification: "Data",
+  },
+  {
+    Name: "Data Analyst Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Aug 2024",
+    Credential_ID: "DAA0014480466504",
+    Classification: "Data",
+  },
+  {
+    Name: "Python Data Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Oct 2024",
+    Credential_ID: "PDA0016153384002",
+    Classification: "Data",
+  },
+  {
+    Name: "SQL Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Oct 2024",
+    Credential_ID: "SQA0016242335437",
+    Classification: "Data",
   },
 ];
 

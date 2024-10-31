@@ -50,12 +50,13 @@ function About() {
           Certifications
         </h1>
         {React.Children.toArray(
-          certificationDetails.map(({ Name, Issued_institution,Issued_time,Credential_ID}) => (
+          certificationDetails.map(({ Name, Issued_institution,Issued_time,Credential_ID, Classification}) => (
             <Certification
               name={Name}
               issued_institution={Issued_institution}
               issued_time={Issued_time}
               credential_id={Credential_ID}
+              classification={Classification}
             />
           ))
         )}

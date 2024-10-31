@@ -7,7 +7,7 @@ function EducationDetails({ img, position, JobContent, duration }) {
         src={img}
         alt="Lecture Details"
         className="w-full h-auto"
-        style={{ width: "400px", height: "400px", objectFit: "cover" }}
+        style={{ transform: "scale(0.7)", objectFit: "cover"}}
       />
       <div className="flex justify-between items-center">
         <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
