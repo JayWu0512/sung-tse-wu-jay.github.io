@@ -91,6 +91,22 @@ export const eduDetails = [
   },
 ];
 
+// Enter your Certifications here
+export const certificationDetails = [
+  {
+    Name: "Data Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Sep 2024",
+    Credential_ID: "DEXXXXXXX",
+  },
+  {
+    Name: "Data Associate",
+    Issued_institution: `DataCamp`,
+    Issued_time: "Sep 2024",
+    Credential_ID: "DEXXXXXXX",
+  },
+];
+
 // Tech Stack and Tools
 export const techStackDetails = {
   html: html,

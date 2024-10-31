@@ -1,7 +1,8 @@
 import React from "react";
 import Work from "../Components/Work";
 import Education from "../Components/Education";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import Certification from "../Components/Certification";
+import { personalDetails, workDetails, eduDetails, certificationDetails} from "../Details";
 
 function About() {
   return (
@@ -40,6 +41,21 @@ function About() {
               location={Location}
               duration={Duration}
               item={EducationDetails}
+            />
+          ))
+        )}
+      </section>
+      <section style={{ marginTop: '3rem' }}> 
+        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Certifications
+        </h1>
+        {React.Children.toArray(
+          certificationDetails.map(({ Name, Issued_institution,Issued_time,Credential_ID}) => (
+            <Certification
+              name={Name}
+              issued_institution={Issued_institution}
+              issued_time={Issued_time}
+              credential_id={Credential_ID}
             />
           ))
         )}
