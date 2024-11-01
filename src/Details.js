@@ -22,12 +22,9 @@ import npm from "./assets/techstack/npm.png";
 import pycharm from "./assets/techstack/pycharm.png";
 
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import website from "./assets/projects/website.png";
+import breakout_game from "./assets/projects/breakout_game.png";
+import name_searching from "./assets/projects/name_searching.png";
 
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
@@ -163,58 +160,31 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
+    title: "Personal Website",
+    image: website,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "HTML, tailwindCSS, React, JavaScript",
+    previewLink: "https://sung-tse-wu-jay.vercel.app/",
+    githubLink: "https://github.com/JayWu0512/sung-tse-wu-jay.github.io",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
+    title: "Breakout Game",
+    image: breakout_game,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "Python",
+    previewLink: "https://www.youtube.com/watch?v=o63KPoIXJS4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=1",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/break_out_game",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
+    title: "Name Popularity Searching System",
+    image: name_searching,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "Python",
+    previewLink: "https://www.youtube.com/watch?v=9JIc0CZwsa4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=4",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/name_searching_system",
   },
 ];
 

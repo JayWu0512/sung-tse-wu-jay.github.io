@@ -75,9 +75,9 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={toggleClass}>
-              Contact
-            </NavLink>
+            <a href="https://drive.google.com/file/d/1f_Ee5-Oipya1NaFgAnnrRH601mw4um9B/view?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={toggleClass}>
+              Resume
+            </a>
           </li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
