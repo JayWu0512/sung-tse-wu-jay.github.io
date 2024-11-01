@@ -36,7 +36,7 @@ function Header() {
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
-            className="dark:fill-light-heading fill-dark-heading"
+            className="stroke-dark-heading dark:stroke-white md:hidden"
             width="25"
             height="20"
             viewBox="0 0 16 13"
