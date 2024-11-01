@@ -48,10 +48,9 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/sung-tse-wu/",
+  linkedin: "https://www.linkedin.com/in/sung-tse-wu",
   github: "https://github.com/JayWu0512",
   email: "https://jaywu05120512@gmail.com",
-  instagram: "https://www.instagram.com/",
 };
 
 // Enter your Work Experience here
@@ -198,9 +197,3 @@ export const projectDetails = [
     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/boggle_game_solver",
   },
 ];
-
-// Enter your Contact Details here
-export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
-};
