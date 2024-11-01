@@ -58,7 +58,7 @@ function Education({ position, company, location, duration, item }) {
             <p className="text-content text-xs md:text-sm font-light pl-1">{location}</p>
           </div>
           <div className="flex items-center">
-            <p className="text-content text-xs md:text-sm font-light pl-1">s
+            <p className="text-content text-xs md:text-sm font-light pl-1">
             </p>
           </div>
         </div>
