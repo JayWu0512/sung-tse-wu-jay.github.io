@@ -1,24 +1,26 @@
 // Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logo from "./assets/logo.svg";
+
+import logoInvertgradient from "./assets/logInvert.png"
+
 // Profile Image
 import profile from "./assets/my_profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
+import python from "./assets/techstack/python.png";
+import mysql from "./assets/techstack/mysql.png";
+import postgresql from "./assets/techstack/postgresql.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import pycharm from "./assets/techstack/pycharm.png";
+
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -33,8 +35,9 @@ import volunteer from "./assets/volunteer.jpg"
 
 // Logos
 export const logos = {
-  logogradient: logogradient,
-  logo: logo,
+  logogradient: logogradient ,
+  logo: logo ,
+  darkgradient: logoInvertgradient,
 };
 
 // Enter your Personal Details here
@@ -49,7 +52,7 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/sung-tse-wu/",
   github: "https://github.com/JayWu0512",
-  twitter: "https://twitter.com/",
+  email: "https://jaywu05120512@gmail.com",
   instagram: "https://www.instagram.com/",
 };
 
@@ -58,14 +61,14 @@ export const workDetails = [
   {
     Position: "QA Engineer",
     Company: `IHH 桓竑智聯`,
-    Location: "Taipei, Taipei City, Taiwan",
-    Type: "Full Time",
+    Location: "Taipei, Taiwan",
+    Type: "Part Time",
     Duration: "Nov 2024 - Present",
   },
   {
     Position: "Senior Associate Auditor",
     Company: `PwC`,
-    Location: "Taipei, Taipei City, Taiwan",
+    Location: "Taipei, Taiwan",
     Type: "Full Time",
     Duration: "Oct 2021 - Oct 2023",
   },
@@ -144,19 +147,17 @@ export const certificationDetails = [
 // Tech Stack and Tools
 export const techStackDetails = {
   html: html,
-  css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
   tailwind: tailwind,
-  bootstrap: bootstrap,
+  python: python,
+  mysql: mysql,
+  postgresql: postgresql,
   vscode: vscode,
-  postman: postman,
   npm: npm,
   git: git,
   github: github,
-  figma: figma,
+  pycharm: pycharm,
 };
 
 // Enter your Project Details here
