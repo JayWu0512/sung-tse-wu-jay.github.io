@@ -20,12 +20,16 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import pycharm from "./assets/techstack/pycharm.png";
+import groovy from "./assets/techstack/groovy.png";
+import gitlab from "./assets/techstack/gitlab.png";
+import katalon from "./assets/techstack/katalon.png";
 
 // Porject Images
 import website from "./assets/projects/website.png";
 import breakout_game from "./assets/projects/breakout_game.png";
 import name_searching from "./assets/projects/name_searching.png";
 import boogle from "./assets/projects/boogle.png"
+import rotten_tomato from "./assets/projects/rotten_tomato.png"
 
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
@@ -68,6 +72,13 @@ export const workDetails = [
     Location: "Taipei, Taiwan",
     Type: "Full Time",
     Duration: "Oct 2021 - Oct 2023",
+  },
+  {
+    Position: "Chief Coordinator",
+    Company: `North Taiwan Dance Competition`,
+    Location: "Taipei, Taiwan",
+    Type: "Part Time",
+    Duration: "July 2018 - Dec 2018",
   },
 ];
 
@@ -155,6 +166,9 @@ export const techStackDetails = {
   git: git,
   github: github,
   pycharm: pycharm,
+  groovy: groovy,
+  gitlab: gitlab,
+  katalon: katalon,
 };
 
 // Enter your Project Details here
@@ -195,5 +209,14 @@ export const projectDetails = [
     techstack: "Python(Algorithm)",
     previewLink: "https://www.youtube.com/watch?v=gbLlbpOppzA&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=3",
     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/boggle_game_solver",
+  },
+  {
+    title: "Rotten Tomatoes Movie Review AI Rating System",
+    image: rotten_tomato,
+    description: `This is a Python project that develops a Rotten Tomatoes Movie Review AI Rating System. 
+    Using logistic regression and stochastic gradient descent, it classifies movie reviews as positive or negative. 
+    The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
+    techstack: "Python(Machine Learning)",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
   },
 ];

@@ -17,6 +17,12 @@ function Technologies() {
     github,
     npm,
     pycharm,
+    groovy,
+    gitlab,
+    katalon,
+    postman,
+    anaconda,
+    markdown,
   } = techStackDetails;
 
   return (
@@ -73,6 +79,12 @@ function Technologies() {
           </div>
           <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">POSTGRESQL</p>
         </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
+            <img src={groovy} title="Groovy" alt="Groovy" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Groovy</p>
+        </div>
       </section>
       
       <section>
@@ -90,6 +102,12 @@ function Technologies() {
         </div>
         <div className="flex flex-col items-center">
           <div className="flex items-center justify-center w-20 h-20">
+            <img src={npm} title="NPM" alt="NPM" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">NPM</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
             <img src={git} title="Git" alt="Git" className="max-h-full max-w-full" />
           </div>
           <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Git</p>
@@ -98,19 +116,43 @@ function Technologies() {
           <div className="flex items-center justify-center w-20 h-20">
             <img src={github} title="Github" alt="Github" className="max-h-full max-w-full" />
           </div>
-          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Github</p>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitHub</p>
         </div>
         <div className="flex flex-col items-center">
           <div className="flex items-center justify-center w-20 h-20">
-            <img src={npm} title="NPM" alt="NPM" className="max-h-full max-w-full" />
+            <img src={gitlab} title="Gitlab" alt="Gitlab" className="max-h-full max-w-full" />
           </div>
-          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">NPM</p>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitLab</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
+            <img src={markdown} title="Markdown" alt="Markdown" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Markdown</p>
         </div>
         <div className="flex flex-col items-center">
           <div className="flex items-center justify-center w-20 h-20">
             <img src={pycharm} title="Pycharm" alt="Pycharm" className="max-h-full max-w-full" />
           </div>
           <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Pycharm</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
+            <img src={anaconda} title="Anaconda" alt="Anaconda" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Anaconda</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
+            <img src={katalon} title="Katalon" alt="Katalon" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Katalon</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center w-20 h-20">
+            <img src={postman} title="Postman" alt="Postman" className="max-h-full max-w-full" />
+          </div>
+          <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Postman</p>
         </div>
       </section>
     </main>
