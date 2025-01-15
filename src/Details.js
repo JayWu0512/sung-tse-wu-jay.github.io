@@ -23,6 +23,9 @@ import pycharm from "./assets/techstack/pycharm.png";
 import groovy from "./assets/techstack/groovy.png";
 import gitlab from "./assets/techstack/gitlab.png";
 import katalon from "./assets/techstack/katalon.png";
+import postman from "./assets/techstack/postman.png";
+import anaconda from "./assets/techstack/anaconda.png";
+import markdown from "./assets/techstack/markdown.png";
 
 // Porject Images
 import website from "./assets/projects/website.png";
@@ -30,6 +33,7 @@ import breakout_game from "./assets/projects/breakout_game.png";
 import name_searching from "./assets/projects/name_searching.png";
 import boogle from "./assets/projects/boogle.png"
 import rotten_tomato from "./assets/projects/rotten_tomato.png"
+import neural_network from "./assets/projects/neural_network.png"
 
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
@@ -169,6 +173,9 @@ export const techStackDetails = {
   groovy: groovy,
   gitlab: gitlab,
   katalon: katalon,
+  postman: postman,
+  anaconda: anaconda,
+  markdown: markdown,
 };
 
 // Enter your Project Details here
@@ -218,5 +225,14 @@ export const projectDetails = [
     The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
     techstack: "Python(Machine Learning)",
     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
+  },
+  {
+    title: "Neural Network - Multi-class Prediction on CIFAR-10 dataset",
+    image: neural_network,
+    description: `This is a Python project that builds a Neural Network for multi-class prediction on the CIFAR-10 dataset. 
+    Using ReLU activation and softmax loss, it performs forward and backward passes with matrix operations. 
+    The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
+    techstack: "Python(Deep Learning)",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
   },
 ];
