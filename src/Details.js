@@ -64,11 +64,18 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "R&D System Engineer",
+    Company: `IHH 桓竑智聯`,
+    Location: "Taipei, Taiwan",
+    Type: "Full Time",
+    Duration: "Feb 2025 - Present",
+  },
+  {
     Position: "QA Engineer",
     Company: `IHH 桓竑智聯`,
     Location: "Taipei, Taiwan",
     Type: "Part Time",
-    Duration: "Nov 2024 - Present",
+    Duration: "Nov 2024 - Feb 2025",
   },
   {
     Position: "Senior Associate Auditor",
