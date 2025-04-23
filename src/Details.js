@@ -96,6 +96,13 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
+    Position: "Master in Interdisciplinary Data Science",
+    Company: `Duke University`,
+    Location: "Durham, North Carolina",
+    Duration: "Aug 2025 - May 2027",
+    EducationDetails : []
+  },
+  {
     Position: "Bachelor in Accounting",
     Company: `National Taipei University`,
     Location: "Taipei, Taiwan",
