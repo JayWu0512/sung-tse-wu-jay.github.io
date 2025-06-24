@@ -40,6 +40,7 @@ import name_searching from "./assets/projects/name_searching.png";
 import boogle from "./assets/projects/boogle.png"
 import rotten_tomato from "./assets/projects/rotten_tomato.png"
 import neural_network from "./assets/projects/neural_network.png"
+import finscope3d from "./assets/projects/finscope3d.png"
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
 import volunteer from "./assets/volunteer.jpg"
@@ -70,31 +71,35 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "R&D System Engineer",
-    Company: `IHH 桓竑智聯`,
+    Company: `IHH Co., Ltd. (Video-tech startup for Taiwan banks & small business)`,
     Location: "Remote",
     Type: "Contract",
     Duration: "Jun 2025 - Present",
+    Link: "https://www.ihh.tw/en",
   },
   {
     Position: "R&D System Engineer",
-    Company: `IHH 桓竑智聯`,
+    Company: `IHH Co., Ltd. (Video-tech startup for Taiwan banks & small business)`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
     Duration: "Feb 2025 - May 2025",
+    Link: "https://www.ihh.tw/en",
   },
   {
     Position: "QA Engineer",
-    Company: `IHH 桓竑智聯`,
+    Company: `IHH Co., Ltd. (Video-tech startup for Taiwan banks & small business)`,
     Location: "Taipei, Taiwan",
     Type: "Part Time",
     Duration: "Nov 2024 - Feb 2025",
+    Link: "https://www.ihh.tw/en",
   },
   {
     Position: "Senior Associate Auditor",
-    Company: `PwC`,
+    Company: `PwC Taiwan`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
     Duration: "Oct 2021 - Oct 2023",
+    Link: "https://www.pwc.tw/en.html"
   },
   {
     Position: "Chief Coordinator",
@@ -102,6 +107,7 @@ export const workDetails = [
     Location: "Taipei, Taiwan",
     Type: "Part Time",
     Duration: "July 2018 - Dec 2018",
+    Link: "https://www.facebook.com/NorthTaiwanDanceCompetition",
   },
 ];
 
@@ -112,6 +118,7 @@ export const eduDetails = [
     Company: `Duke University`,
     Location: "Durham, North Carolina",
     Duration: "Aug 2025 - May 2027 ",
+    Link: "https://www.datascience.duke.edu/",
     EducationDetails : [
       {
         img:logo,
@@ -124,6 +131,7 @@ export const eduDetails = [
     Company: `National Taipei University`,
     Location: "Taipei, Taiwan",
     Duration: "Sep 2016 - Jun 2020",
+    Link: "https://new.ntpu.edu.tw/",
     EducationDetails : [
       {
         img:north_taiwan_dance_competition,
@@ -149,6 +157,7 @@ export const certificationDetails = [
     Issued_time: "Mar 2024",
     Credential_ID: "8842",
     Classification: "Accounting",
+    Link: "https://www.linkedin.com/in/sung-tse-wu/details/certifications/1727959791084/single-media-viewer/?profileId=ACoAAEuCQnABL_m03p3c69EasK8xBiyNe_fdBkM",
   },
   {
     Name: "Data Engineer Associate",
@@ -156,6 +165,7 @@ export const certificationDetails = [
     Issued_time: "Sep 2024",
     Credential_ID: "DEA0010832728986",
     Classification: "Data",
+    Link: "https://www.datacamp.com/certificate/DEA0010832728986",
   },
   {
     Name: "Data Scientist Associate",
@@ -163,6 +173,7 @@ export const certificationDetails = [
     Issued_time: "Sep 2024",
     Credential_ID: "DSA0016970617486",
     Classification: "Data",
+    Link: "https://www.datacamp.com/certificate/DSA0016970617486",
   },
   {
     Name: "Data Analyst Associate",
@@ -170,6 +181,7 @@ export const certificationDetails = [
     Issued_time: "Aug 2024",
     Credential_ID: "DAA0014480466504",
     Classification: "Data",
+    Link: "https://www.datacamp.com/certificate/DAA0014480466504",
   },
   {
     Name: "Python Data Associate",
@@ -177,6 +189,7 @@ export const certificationDetails = [
     Issued_time: "Oct 2024",
     Credential_ID: "PDA0016153384002",
     Classification: "Python",
+    Link: "https://www.datacamp.com/certificate/PDA0016153384002",
   },
   {
     Name: "SQL Associate",
@@ -184,6 +197,7 @@ export const certificationDetails = [
     Issued_time: "Oct 2024",
     Credential_ID: "SQA0016242335437",
     Classification: "SQL",
+    Link: "https://www.datacamp.com/certificate/SQA0016242335437",
   },
 ];
 
@@ -274,5 +288,14 @@ export const projectDetails = [
     The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
     techstack: "Python(Deep Learning)",
     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
+  },
+    {
+    title: "FinScope3D - Multimodal Financial QA Platform",
+    image: finscope3d,
+    description: `FinScope3D is a multimodal financial QA system that integrates natural language understanding, 
+    named entity recognition (NER), structured and unstructured data processing, and predictive modeling to deliver insightful responses to financial queries.`,
+    techstack: "Python, SQL, LLM, HuggingFace, LangChain, ChromaDB, LightGBM, Gradio",
+    previewLink: "https://drive.google.com/file/d/1ua_CjsZJFX0CzS_Aortgt-NMUekr0hUb/view",
+    githubLink: "https://github.com/JayWu0512/FinScope3D",
   },
 ];

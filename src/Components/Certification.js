@@ -1,6 +1,6 @@
 import React from "react";
 
-function Certification({ name, issued_institution, issued_time, credential_id, classification }) {
+function Certification({ name, issued_institution, issued_time, credential_id, classification, link}) {
     return (
         <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
             <div className="flex justify-between items-center">
@@ -38,9 +38,18 @@ function Certification({ name, issued_institution, issued_time, credential_id, c
                             <rect x="4" y="12" width="8" height="0.5" fill="currentColor" />
                         </svg>
 
-
-
+                        {link ? (
+                        <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-content text-xs md:text-sm font-light pl-1 hover:underline hover:text-blue-600"
+                        >
+                            {credential_id}
+                        </a>
+                        ) : (
                         <p className="text-content text-xs md:text-sm font-light pl-1">{credential_id}</p>
+                        )}
                     </div>
                 </div>
                 <p className="text-content text-xs md:text-sm font-light pl-1 min-w-fit">{issued_time}</p>

@@ -22,13 +22,14 @@ function About() {
           Work Experience
         </h1>
         {React.Children.toArray(
-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
+          workDetails.map(({ Position, Company, Location, Type, Duration, Link}) => (
             <Work
               position={Position}
               company={Company}
               location={Location}
               type={Type}
               duration={Duration}
+              link={Link}
             />
           ))
         )}
@@ -38,13 +39,14 @@ function About() {
           Education
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Duration, EducationDetails }) => (
+          eduDetails.map(({ Position, Company, Location, Duration, EducationDetails, Link }) => (
             <Education
               position={Position}
               company={Company}
               location={Location}
               duration={Duration}
               item={EducationDetails}
+              link={Link}
             />
           ))
         )}
@@ -54,13 +56,14 @@ function About() {
           Certifications
         </h1>
         {React.Children.toArray(
-          certificationDetails.map(({ Name, Issued_institution, Issued_time, Credential_ID, Classification }) => (
+          certificationDetails.map(({ Name, Issued_institution, Issued_time, Credential_ID, Classification, Link }) => (
             <Certification
               name={Name}
               issued_institution={Issued_institution}
               issued_time={Issued_time}
               credential_id={Credential_ID}
               classification={Classification}
+              link={Link}
             />
           ))
         )}
