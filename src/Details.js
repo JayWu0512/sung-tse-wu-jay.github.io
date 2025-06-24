@@ -2,9 +2,7 @@
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo.svg";
-
 import logoInvertgradient from "./assets/logInvert.png"
-
 // Profile Image
 import profile from "./assets/my_profile.jpg";
 // Tech stack images
@@ -26,7 +24,6 @@ import katalon from "./assets/techstack/katalon.png";
 import postman from "./assets/techstack/postman.png";
 import anaconda from "./assets/techstack/anaconda.png";
 import markdown from "./assets/techstack/markdown.png";
-
 // Porject Images
 import website from "./assets/projects/website.png";
 import breakout_game from "./assets/projects/breakout_game.png";
@@ -34,7 +31,6 @@ import name_searching from "./assets/projects/name_searching.png";
 import boogle from "./assets/projects/boogle.png"
 import rotten_tomato from "./assets/projects/rotten_tomato.png"
 import neural_network from "./assets/projects/neural_network.png"
-
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
 import volunteer from "./assets/volunteer.jpg"
@@ -66,9 +62,16 @@ export const workDetails = [
   {
     Position: "R&D System Engineer",
     Company: `IHH 桓竑智聯`,
+    Location: "Remote",
+    Type: "Contract",
+    Duration: "Jun 2025 - Present",
+  },
+  {
+    Position: "R&D System Engineer",
+    Company: `IHH 桓竑智聯`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
-    Duration: "Feb 2025 - Present",
+    Duration: "Feb 2025 - May 2025",
   },
   {
     Position: "QA Engineer",
@@ -99,7 +102,7 @@ export const eduDetails = [
     Position: "Master in Interdisciplinary Data Science",
     Company: `Duke University`,
     Location: "Durham, North Carolina",
-    Duration: "Aug 2025 - May 2027",
+    Duration: "Aug 2025 - May 2027 ",
     EducationDetails : []
   },
   {
