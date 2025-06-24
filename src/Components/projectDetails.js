@@ -21,7 +21,7 @@ export const projectDetails = [
     image: logo,
     description: [
       <p key="1">
-        This is my first project to establish a personal website, featuring.
+        This is my first project to establish a personal website, featuring
         several pages: <br />
         <br />
         <strong>About:</strong> Introduces my work experience, education, and certifications.
