@@ -1,4 +1,4 @@
-import logo from ".././assets/logo.svg";
+import logo from ".././assets/logo.png";
 
 // Porject Images
 import website from ".././assets/projects/website.png";
