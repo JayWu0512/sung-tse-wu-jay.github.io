@@ -16,7 +16,6 @@ import postgresql from "./assets/techstack/postgresql.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
 import pycharm from "./assets/techstack/pycharm.png";
 import groovy from "./assets/techstack/groovy.png";
 import gitlab from "./assets/techstack/gitlab.png";
@@ -24,6 +23,16 @@ import katalon from "./assets/techstack/katalon.png";
 import postman from "./assets/techstack/postman.png";
 import anaconda from "./assets/techstack/anaconda.png";
 import markdown from "./assets/techstack/markdown.png";
+import typescript from "./assets/techstack/typescript.png";
+import golang from "./assets/techstack/golang.png";
+import php from "./assets/techstack/php.png";
+import angular from "./assets/techstack/angular.png";
+import sass from "./assets/techstack/sass.png";
+import docker from "./assets/techstack/docker.png";
+import podman from "./assets/techstack/podman.png";
+import linux from "./assets/techstack/linux.png";
+import powershell from "./assets/techstack/powershell.png";
+import llm from "./assets/techstack/llm.png";
 // Porject Images
 import website from "./assets/projects/website.png";
 import breakout_game from "./assets/projects/breakout_game.png";
@@ -103,7 +112,12 @@ export const eduDetails = [
     Company: `Duke University`,
     Location: "Durham, North Carolina",
     Duration: "Aug 2025 - May 2027 ",
-    EducationDetails : []
+    EducationDetails : [
+      {
+        img:logo,
+        JobContent: "Still Updating!",
+      },
+    ]
   },
   {
     Position: "Bachelor in Accounting",
@@ -183,7 +197,6 @@ export const techStackDetails = {
   mysql: mysql,
   postgresql: postgresql,
   vscode: vscode,
-  npm: npm,
   git: git,
   github: github,
   pycharm: pycharm,
@@ -193,6 +206,16 @@ export const techStackDetails = {
   postman: postman,
   anaconda: anaconda,
   markdown: markdown,
+  typescript: typescript,
+  golang: golang,
+  php: php,
+  angular: angular,
+  sass: sass,
+  docker: docker,
+  podman: podman,
+  linux: linux,
+  powershell: powershell,
+  llm: llm,
 };
 
 // Enter your Project Details here
