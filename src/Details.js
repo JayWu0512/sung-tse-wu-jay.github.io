@@ -33,14 +33,16 @@ import podman from "./assets/techstack/podman.png";
 import linux from "./assets/techstack/linux.png";
 import powershell from "./assets/techstack/powershell.png";
 import llm from "./assets/techstack/llm.png";
-// Porject Images
-import website from "./assets/projects/website.png";
-import breakout_game from "./assets/projects/breakout_game.png";
-import name_searching from "./assets/projects/name_searching.png";
-import boogle from "./assets/projects/boogle.png"
-import rotten_tomato from "./assets/projects/rotten_tomato.png"
-import neural_network from "./assets/projects/neural_network.png"
-import finscope3d from "./assets/projects/finscope3d.png"
+
+// Porject Images(old version, not used in the current version)
+// import website from "./assets/projects/website.png";
+// import breakout_game from "./assets/projects/breakout_game.png";
+// import name_searching from "./assets/projects/name_searching.png";
+// import boogle from "./assets/projects/boogle.png"
+// import rotten_tomato from "./assets/projects/rotten_tomato.png"
+// import neural_network from "./assets/projects/neural_network.png"
+// import finscope3d from "./assets/projects/finscope3d.png"
+
 // Club Activity
 import north_taiwan_dance_competition from "./assets/north_taiwan_dance_competition.jpg"
 import volunteer from "./assets/volunteer.jpg"
@@ -232,70 +234,70 @@ export const techStackDetails = {
   llm: llm,
 };
 
-// Enter your Project Details here
-export const projectDetails = [
-  {
-    title: "Personal Website",
-    image: website,
-    description: `This is a sample project that incorporates various front-end technologies such as JavaScript for interactivity, 
-    Tailwind CSS for styling, and HTML for structure, creating a seamless user experience.`,
-    techstack: "HTML, tailwindCSS, React, JavaScript",
-    previewLink: "https://sung-tse-wu-jay.vercel.app/",
-    githubLink: "https://github.com/JayWu0512/sung-tse-wu-jay.github.io",
-  },
-  {
-    title: "FinScope3D - Multimodal Financial QA Platform",
-    image: finscope3d,
-    description: `FinScope3D is a multimodal financial QA system that integrates natural language understanding, 
-    named entity recognition (NER), structured and unstructured data processing, and predictive modeling to deliver insightful responses to financial queries.`,
-    techstack: "Python, SQL, LLM, HuggingFace, LangChain, ChromaDB, LightGBM, Gradio",
-    previewLink: "https://drive.google.com/file/d/1ua_CjsZJFX0CzS_Aortgt-NMUekr0hUb/view",
-    githubLink: "https://github.com/JayWu0512/FinScope3D",
-  },
-  {
-    title: "Neural Network - Multi-class Prediction on CIFAR-10 dataset",
-    image: neural_network,
-    description: `This is a Python project that builds a Neural Network for multi-class prediction on the CIFAR-10 dataset. 
-    Using ReLU activation and softmax loss, it performs forward and backward passes with matrix operations. 
-    The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
-    techstack: "Python(Deep Learning)",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
-  },
-  {
-    title: "Rotten Tomatoes Movie Review AI Rating System",
-    image: rotten_tomato,
-    description: `This is a Python project that develops a Rotten Tomatoes Movie Review AI Rating System. 
-    Using logistic regression and stochastic gradient descent, it classifies movie reviews as positive or negative. 
-    The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
-    techstack: "Python(Machine Learning)",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
-  },
-  {
-    title: "Breakout Game",
-    image: breakout_game,
-    description: `This is a sample of a brick-breaking game implemented in Python, 
-    which utilizes object-oriented programming and event-driven programming to create a dynamic and interactive experience.`,
-    techstack: "Python(Object-Oriented Programming)",
-    previewLink: "https://www.youtube.com/watch?v=o63KPoIXJS4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=1",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/break_out_game",
-  },
-  {
-    title: "Name Popularity Searching System",
-    image: name_searching,
-    description: `This is a sample project that utilizes data structures and data visualization, 
-    allowing users to input multiple names and generate a trend chart of baby name rankings from 1990 to 2020, 
-    helping them understand the popularity of names across different years`,
-    techstack: "Python(Data Structure)",
-    previewLink: "https://www.youtube.com/watch?v=9JIc0CZwsa4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=4",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/name_searching_system",
-  },
-  {
-    title: "Boggle Game Solver",
-    image: boogle,
-    description: `This is a sample project in Python that mimics a common board game. When a 4x4 grid of letters is displayed, 
-    Python will attempt to find all possible answers using an algorithm.`,
-    techstack: "Python(Algorithm)",
-    previewLink: "https://www.youtube.com/watch?v=gbLlbpOppzA&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=3",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/boggle_game_solver",
-  },
-];
+// Enter your Project Details here(old version, not used in the current version)
+// export const projectDetails = [
+//   {
+//     title: "Personal Website",
+//     image: website,
+//     description: `This is a sample project that incorporates various front-end technologies such as JavaScript for interactivity, 
+//     Tailwind CSS for styling, and HTML for structure, creating a seamless user experience.`,
+//     techstack: "HTML, tailwindCSS, React, JavaScript",
+//     previewLink: "https://sung-tse-wu-jay.vercel.app/",
+//     githubLink: "https://github.com/JayWu0512/sung-tse-wu-jay.github.io",
+//   },
+//   {
+//     title: "FinScope3D - Multimodal Financial QA Platform",
+//     image: finscope3d,
+//     description: `FinScope3D is a multimodal financial QA system that integrates natural language understanding, 
+//     named entity recognition (NER), structured and unstructured data processing, and predictive modeling to deliver insightful responses to financial queries.`,
+//     techstack: "Python, SQL, LLM, HuggingFace, LangChain, ChromaDB, LightGBM, Gradio",
+//     previewLink: "https://drive.google.com/file/d/1ua_CjsZJFX0CzS_Aortgt-NMUekr0hUb/view",
+//     githubLink: "https://github.com/JayWu0512/FinScope3D",
+//   },
+//   {
+//     title: "Neural Network - Multi-class Prediction on CIFAR-10 dataset",
+//     image: neural_network,
+//     description: `This is a Python project that builds a Neural Network for multi-class prediction on the CIFAR-10 dataset. 
+//     Using ReLU activation and softmax loss, it performs forward and backward passes with matrix operations. 
+//     The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
+//     techstack: "Python(Deep Learning)",
+//     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
+//   },
+//   {
+//     title: "Rotten Tomatoes Movie Review AI Rating System",
+//     image: rotten_tomato,
+//     description: `This is a Python project that develops a Rotten Tomatoes Movie Review AI Rating System. 
+//     Using logistic regression and stochastic gradient descent, it classifies movie reviews as positive or negative. 
+//     The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
+//     techstack: "Python(Machine Learning)",
+//     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
+//   },
+//   {
+//     title: "Breakout Game",
+//     image: breakout_game,
+//     description: `This is a sample of a brick-breaking game implemented in Python, 
+//     which utilizes object-oriented programming and event-driven programming to create a dynamic and interactive experience.`,
+//     techstack: "Python(Object-Oriented Programming)",
+//     previewLink: "https://www.youtube.com/watch?v=o63KPoIXJS4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=1",
+//     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/break_out_game",
+//   },
+//   {
+//     title: "Name Popularity Searching System",
+//     image: name_searching,
+//     description: `This is a sample project that utilizes data structures and data visualization, 
+//     allowing users to input multiple names and generate a trend chart of baby name rankings from 1990 to 2020, 
+//     helping them understand the popularity of names across different years`,
+//     techstack: "Python(Data Structure)",
+//     previewLink: "https://www.youtube.com/watch?v=9JIc0CZwsa4&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=4",
+//     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/name_searching_system",
+//   },
+//   {
+//     title: "Boggle Game Solver",
+//     image: boogle,
+//     description: `This is a sample project in Python that mimics a common board game. When a 4x4 grid of letters is displayed, 
+//     Python will attempt to find all possible answers using an algorithm.`,
+//     techstack: "Python(Algorithm)",
+//     previewLink: "https://www.youtube.com/watch?v=gbLlbpOppzA&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=3",
+//     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/boggle_game_solver",
+//   },
+// ];
