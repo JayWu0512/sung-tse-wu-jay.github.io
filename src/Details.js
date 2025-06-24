@@ -244,6 +244,33 @@ export const projectDetails = [
     githubLink: "https://github.com/JayWu0512/sung-tse-wu-jay.github.io",
   },
   {
+    title: "FinScope3D - Multimodal Financial QA Platform",
+    image: finscope3d,
+    description: `FinScope3D is a multimodal financial QA system that integrates natural language understanding, 
+    named entity recognition (NER), structured and unstructured data processing, and predictive modeling to deliver insightful responses to financial queries.`,
+    techstack: "Python, SQL, LLM, HuggingFace, LangChain, ChromaDB, LightGBM, Gradio",
+    previewLink: "https://drive.google.com/file/d/1ua_CjsZJFX0CzS_Aortgt-NMUekr0hUb/view",
+    githubLink: "https://github.com/JayWu0512/FinScope3D",
+  },
+  {
+    title: "Neural Network - Multi-class Prediction on CIFAR-10 dataset",
+    image: neural_network,
+    description: `This is a Python project that builds a Neural Network for multi-class prediction on the CIFAR-10 dataset. 
+    Using ReLU activation and softmax loss, it performs forward and backward passes with matrix operations. 
+    The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
+    techstack: "Python(Deep Learning)",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
+  },
+  {
+    title: "Rotten Tomatoes Movie Review AI Rating System",
+    image: rotten_tomato,
+    description: `This is a Python project that develops a Rotten Tomatoes Movie Review AI Rating System. 
+    Using logistic regression and stochastic gradient descent, it classifies movie reviews as positive or negative. 
+    The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
+    techstack: "Python(Machine Learning)",
+    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
+  },
+  {
     title: "Breakout Game",
     image: breakout_game,
     description: `This is a sample of a brick-breaking game implemented in Python, 
@@ -270,32 +297,5 @@ export const projectDetails = [
     techstack: "Python(Algorithm)",
     previewLink: "https://www.youtube.com/watch?v=gbLlbpOppzA&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP&index=3",
     githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/boggle_game_solver",
-  },
-  {
-    title: "Rotten Tomatoes Movie Review AI Rating System",
-    image: rotten_tomato,
-    description: `This is a Python project that develops a Rotten Tomatoes Movie Review AI Rating System. 
-    Using logistic regression and stochastic gradient descent, it classifies movie reviews as positive or negative. 
-    The system includes a manual prediction feature and rigorous testing with custom examples to ensure accuracy and reliability.`,
-    techstack: "Python(Machine Learning)",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/rotten_tomatoes_movie_review_AI_rating_system",
-  },
-  {
-    title: "Neural Network - Multi-class Prediction on CIFAR-10 dataset",
-    image: neural_network,
-    description: `This is a Python project that builds a Neural Network for multi-class prediction on the CIFAR-10 dataset. 
-    Using ReLU activation and softmax loss, it performs forward and backward passes with matrix operations. 
-    The training process is validated through visualizations of cost and accuracy history to ensure model performance and reliability.`,
-    techstack: "Python(Deep Learning)",
-    githubLink: "https://github.com/JayWu0512/StanCode_Projects/tree/main/StanCode_Projects/neural_netwrok_multi-class_%20prediction_on%20_CIFAR-10_dataset",
-  },
-    {
-    title: "FinScope3D - Multimodal Financial QA Platform",
-    image: finscope3d,
-    description: `FinScope3D is a multimodal financial QA system that integrates natural language understanding, 
-    named entity recognition (NER), structured and unstructured data processing, and predictive modeling to deliver insightful responses to financial queries.`,
-    techstack: "Python, SQL, LLM, HuggingFace, LangChain, ChromaDB, LightGBM, Gradio",
-    previewLink: "https://drive.google.com/file/d/1ua_CjsZJFX0CzS_Aortgt-NMUekr0hUb/view",
-    githubLink: "https://github.com/JayWu0512/FinScope3D",
   },
 ];

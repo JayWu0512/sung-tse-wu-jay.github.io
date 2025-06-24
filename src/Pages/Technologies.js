@@ -314,27 +314,21 @@ function Technologies() {
             </div>
           </div>
 
-          {/* Version Control & CI/CD */}
+          {/* API & Testing */}
           <div>
-            <p className="text-content py-2"><strong>Version Control & CI/CD:</strong></p>
+            <p className="text-content py-2"><strong>API & Testing:</strong></p>
             <div className="grid grid-cols-3 md:grid-cols-3 gap-6 pt-3">
               <div className="flex flex-col items-center">
                 <div className="flex items-center justify-center w-20 h-20">
-                  <img src={git} title="Git" alt="Git" className="max-h-full max-w-full" />
+                  <img src={katalon} title="Katalon" alt="Katalon" className="max-h-full max-w-full" />
                 </div>
-                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Git</p>
+                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Katalon</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="flex items-center justify-center w-20 h-20">
-                  <img src={github} title="Github" alt="Github" className="max-h-full max-w-full" />
+                  <img src={postman} title="Postman" alt="Postman" className="max-h-full max-w-full" />
                 </div>
-                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitHub</p>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="flex items-center justify-center w-20 h-20">
-                  <img src={gitlab} title="Gitlab" alt="Gitlab" className="max-h-full max-w-full" />
-                </div>
-                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitLab(CI/CD)</p>
+                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Postman</p>
               </div>
             </div>
           </div>
@@ -361,21 +355,27 @@ function Technologies() {
 
         {/* right Tools */}
         <div className="flex flex-col gap-10">
-          {/* API & Testing */}
+          {/* Version Control & CI/CD */}
           <div>
-            <p className="text-content py-2"><strong>API & Testing:</strong></p>
+            <p className="text-content py-2"><strong>Version Control & CI/CD:</strong></p>
             <div className="grid grid-cols-3 md:grid-cols-3 gap-6 pt-3">
               <div className="flex flex-col items-center">
                 <div className="flex items-center justify-center w-20 h-20">
-                  <img src={katalon} title="Katalon" alt="Katalon" className="max-h-full max-w-full" />
+                  <img src={git} title="Git" alt="Git" className="max-h-full max-w-full" />
                 </div>
-                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Katalon</p>
+                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Git</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="flex items-center justify-center w-20 h-20">
-                  <img src={postman} title="Postman" alt="Postman" className="max-h-full max-w-full" />
+                  <img src={github} title="Github" alt="Github" className="max-h-full max-w-full" />
                 </div>
-                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">Postman</p>
+                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitHub</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="flex items-center justify-center w-20 h-20">
+                  <img src={gitlab} title="Gitlab" alt="Gitlab" className="max-h-full max-w-full" />
+                </div>
+                <p className="text-center h-8 mt-3 text-dark-heading dark:text-light-heading">GitLab(CI/CD)</p>
               </div>
             </div>
           </div>
