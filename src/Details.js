@@ -56,8 +56,11 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Sung-Tse(Jay), Wu",
-  tagline: "Passionate about discovering new insights in data.",
+  name: "Sung-Tse Wu (Jay)",
+  tagline: [
+      "Data Science @ Duke",
+      "Accounting | CPA (Taiwan)"
+  ],
   img: profile,
   about: `My name is Jay Wu, a curious, empathetic communicator who aspires to be <strong>"someone with a story to tell."</strong> During my time at PwC, I observed the diverse people I encountered over the past two years and found myself asking, <strong>Is accounting the only path in life for me?</strong> \nIn search of new directions, I began identifying talent gaps within each company I worked with and dedicated my spare time to learning various fields and exploring my interests. This journey has fostered a strong passion for the fields of data and AI, and I am committed to applying my coding skills and current knowledge to help companies tackle a variety of challenges. My goal is to leverage my expertise in accounting, finance, and data to enhance company efficiency while building a solid reputation.`,
 };

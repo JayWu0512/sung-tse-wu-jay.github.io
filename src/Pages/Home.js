@@ -75,7 +75,12 @@ function Home() {
           ref={h13}
           className="text-1g text-lightgray-heading dark:text-light-heading md:text-x1 xl:text-2xl xl:leading-tight font-bold leading-snug"
         >
-          {tagline}
+          {tagline.map((line, index) => (
+            <span key={index}>
+              {line}
+              <br />
+            </span>
+          ))}
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
