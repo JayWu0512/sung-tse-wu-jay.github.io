@@ -115,15 +115,15 @@ function Projects() {
                 ))}
               </div>
               <div className="md:w-2/3">
-                <div className="mb-4">
+                <div className="mb-4 flex flex-wrap gap-3">
                   {selectedProject.links && selectedProject.links.length > 0
                     ? selectedProject.links.map((link, index) => (
                         <a
                           key={index}
                           href={link}
-                          target="_blank" // Opens the link in a new tab
-                          rel="noopener noreferrer" // For security
-                          className="text-blue-500 underline block mb-2 hover:text-blue-700"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 underline hover:text-blue-700"
                         >
                           {link}
                         </a>
