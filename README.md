@@ -1,55 +1,108 @@
-# React Developer Portfolio template
-#### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
-### Preview ( Dark Mode )
+# Personal Portfolio – Sung-Tse Wu (Jay)
 
-<img src="/preview.gif" alt="preview" width="600px" />
+This repository contains the source code for my personal portfolio website, built with **React**, **Tailwind CSS**, and deployed through **GitHub Pages**.  
+The site showcases my background, projects, experiences, and technical skills in a clean and responsive layout.
 
-## Follow Below instructions to add your deatils in the portfolio.
+**Live Website:** https://sung-tse-wu-jay.vercel.app/  
+**GitHub Repo:** https://github.com/JayWu0512/sung-tse-wu-jay.github.io
 
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
 
-#### Open `/src/Details.js` & modify it as per your need.
+## Features
 
-```javascript
-/ Enter your Personal Details here
-export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-};
+### **About & Experience**
+- Professional introduction  
+- Work history and responsibility highlights  
+- Certifications & education details  
 
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
-};
+### **Projects**
+- Project gallery with descriptions  
+- Individual project detail pages  
+- Highlight of tech stack used per project  
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
+### **Skills & Technologies**
+- Frontend, backend, database, and tool categories  
+- Visual representation of technical strengths  
 
-// Enter your Education Details here
-export const eduDetails = { ... };
+### **Contact**
+- Email contact form  
+- Links to professional profiles  
 
-// Tech Stack and Tools
-export const techStackDetails = { ... };
+---
 
-// Enter your Project Details here
-export const projectDetails = [ ... ];
+## Project Structure
 
-// Enter your Contact Details here
-export const contactDetails = { ... };
 ```
+src/
+├─ assets/                 # Images & icons
+├─ Components/
+│  ├─ Header.js
+│  ├─ Footer.js
+│  ├─ Education.js
+│  ├─ Certification.js
+│  ├─ Project.js
+│  ├─ Work.js
+│  └─ ...other UI components
+├─ Pages/
+│  ├─ Home.js
+│  ├─ About.js
+│  ├─ Projects.js
+│  ├─ Contact.js
+│  └─ Technologies.js
+├─ App.js                  # Main router / layout
+├─ index.js                # React entry file
+└─ index.css               # Global styles (Tailwind)
+```
+
+## Tech Stack
+
+### **Frontend**
+- React.js  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- Responsive design  
+
+### **Tooling**
+- GitHub Pages (deployment)  
+- Node.js + npm  
+- PostCSS / Tailwind config  
+
+## Development
+
+### **Install dependencies**
+```bash
+npm install
+```
+
+### **Run locally**
+```bash
+npm start
+```
+
+This starts the app at **http://localhost:3000/**.
+
+### **Build**
+```bash
+npm run build
+```
+
+## Deployment
+
+This site is deployed using **GitHub Pages**.  
+To deploy updates:
+
+```bash
+npm run build
+```
+
+Then push changes to the repository. GitHub Pages will automatically update the hosted site.
+
+
+## License
+
+This project is open-source and available under the MIT License.
+
+
+## Acknowledgements
+
+Thanks for visiting my portfolio!  
+Feel free to explore the site and reach out if you'd like to connect or collaborate.
