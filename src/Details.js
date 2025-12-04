@@ -76,7 +76,7 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "R&D System Engineer",
+    Position: "Full-Stack Engineer",
     Company: `IHH Co., Ltd. (Video-tech startup for Taiwan banks & small business)`,
     Location: "Remote",
     Type: "Contract",
@@ -84,7 +84,7 @@ export const workDetails = [
     Link: "https://www.ihh.tw/en",
   },
   {
-    Position: "R&D System Engineer",
+    Position: "Full-Stack Engineer",
     Company: `IHH Co., Ltd. (Video-tech startup for Taiwan banks & small business)`,
     Location: "Taipei, Taiwan",
     Type: "Full Time",
